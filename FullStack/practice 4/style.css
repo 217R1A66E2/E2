@@ -1,0 +1,26 @@
+.body {
+    background-color: blue;
+}
+.logo {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 10px;
+    text-align: left;
+}
+.navbar-nav {
+    padding-: 5px;
+    text-align: center;
+}

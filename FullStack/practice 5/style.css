@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.nav-logo {
+    height: 50px;
+
+
+}
+.webpage {
+    background-image: url("https://html.sammy-codes.com/images/background.jpg");
+    background-size: cover;
+}
+.item-nav {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+.item-nav :hover {
+    font-family: 'Roboto', sans-serif;
+
+    color:blue;
+
+}
+.anchor {
+    margin-left: auto;
+    
+}
+.body-section {
+    height: 80vh;
+
+}
+.box-left {
+    text-align: center;
+    color: white;
+}
+.box-right {
+    text-align: left;
+}
+.home-para {
+    text-align: right;
+    font-size: 20px;
+}
+.about-h1 {
+    color: white;
+    text-align: center;
+}
+.about-p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.what-h1 {
+    color: white;
+    text-align: center;
+}
+.what-p {
+    color: whitesmoke;
+    text-align: center;
+
+}
+.youtube-h {
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.card {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+
+}
+.card-h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.card-p {
+    text-align: center;
+}
+.contact-h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.c-l1 {
+    height: 35px;
+    
+}
+.contact-p {
+    text-align: center;
+}
+.contact-logo {
+    margin-left: 480px;
+}
+.c-l2 {
+    height: 35px;
+    margin-left:480px ;
+}

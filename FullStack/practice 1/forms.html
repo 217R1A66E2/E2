@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>Student Data</h1>
+    <form action="index.html" method="post" target="_self">
+    Name :<input type="text" name="text" placeholder="Username" autofocus required/><br/><br/>
+    Password :<input type="password" name="password" placeholder="password"/> <br/> <br/>
+   College: <select name="menu">
+        <option value="CMRTC">CMRTC</option>
+        <option value="CMRCET">CMRCET</option>
+        <option value="CMRIT">CMRIT</option>
+
+    </select><br></br>
+    <input type="checkbox" name="Hobbies" />Gaming<br/><br/>
+    <input type="checkbox" name="Hobbies" />Writing<br/><br/>
+    Date of Birth:<input type="date" name="date" /><br/><br/>
+
+   Gender :<input type="radio" name="gender" placeholder=""/>MALE
+    <input type="radio" name="gender" placeholder=""/>FEMALE 
+    <input type="radio" name="gender" placeholder=""/>Other <br/><br/>
+
+    Resume:<input type="file" name="Document" placeholder=""/><br/><br/>
+    <input type="submit" value="Register"/>
+    <input type="reset" value="Clear" placeholder=""/><br/><br/>
+    </form>
+</body>
+</html>
